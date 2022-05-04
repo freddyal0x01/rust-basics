@@ -1,3 +1,7 @@
+/*
+Testing enums and using the assert! macro
+*/
+
 // #[derive(Debug)]
 // struct Rectangle {
 //     width: u32,
@@ -43,6 +47,10 @@
 //     }
 // }
 
+/*
+Testing function based on the assert_eq! macro. Tested errors and if the function added 2 as intended
+*/
+
 // pub fn add_two(a: i32) -> i32 {
 //     a + 3
 // }
@@ -57,6 +65,10 @@
 //     }
 // }
 
+/*
+Testing a function to determine if a string contained a value based on the function
+*/
+
 // pub fn greeting(name: &str) -> String {
 //     String::from("Hello!")
 // }
@@ -70,6 +82,10 @@
 //         result
 //     );
 // }
+
+/*
+Testing a function that should throw a panic error based on a condition
+*/
 
 // pub struct Guess { 
 //     value: i32
@@ -104,6 +120,10 @@
 //     }
 // }
 
+/*
+Testing functionality based on the return value
+*/
+
 // fn prints_and_returns_10(a: i32) -> i32 {
 //     println!("I got the value {}", a);
 //     10
@@ -125,6 +145,11 @@
 //         assert_eq!(5, value);
 //     }
 // }
+
+
+/*
+Doing testing for single or multiple functions based on naming convention
+*/
 
 // pub fn add_two(a: i32) -> i32 {
 //     a + 2
@@ -150,13 +175,22 @@
 //     }
 // }
 
-#[test]
-fn it_works() {
-    assert_eq!(2 + 2, 4);
-}
 
-#[test]
-#[ignore]
-fn expensive_test() {
-    // code that takes an hour to run
-}
+/*
+Doing ignore test function
+*/
+
+// #[test]
+// fn it_works() {
+//     assert_eq!(2 + 2, 4);
+// }
+
+// #[test]
+// #[ignore]
+// fn expensive_test() {
+//     // code that takes an hour to run
+// }
+
+/*
+Testing 
+*/
